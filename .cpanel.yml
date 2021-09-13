@@ -2,17 +2,16 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/hasa3862/public_html/kemaskosmetik.com
+    - /bin/cp -R application $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R cron $DEPLOYPATH
+    - /bin/cp -R rainloop $DEPLOYPATH
+    - /bin/cp -R storage $DEPLOYPATH
+    - /bin/cp -R system $DEPLOYPATH
     - /bin/cp .ftpquota $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp adminer.php $DEPLOYPATH
     - /bin/cp error_log $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp -R application $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R cgi-bin $DEPLOYPATH
-    - /bin/cp -R cron $DEPLOYPATH
-    - /bin/cp -R rainloop $DEPLOYPATH
-    - /bin/cp -R storage $DEPLOYPATH
-    - /bin/cp -R system $DEPLOYPATH
 
 
