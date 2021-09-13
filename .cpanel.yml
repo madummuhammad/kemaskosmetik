@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hasa3862/public_html/kemaskosmetik.com
