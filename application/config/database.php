@@ -97,10 +97,10 @@ $db['default'] = array(
 
 $db['inventory'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'kemas',
+	'hostname' => 'hasseedply.com',
+	'username' => 'hasa3862_kemas',
+	'password' => 'kemas123_',
+	'database' => 'hasa3862_kemas',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => 'knr_',
 	'pconnect' => FALSE,
