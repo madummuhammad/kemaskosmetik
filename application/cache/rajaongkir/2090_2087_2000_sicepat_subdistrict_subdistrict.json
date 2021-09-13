@@ -1,0 +1,1 @@
+[{"code":"sicepat","name":"SiCepat Express","costs":[{"service":"REG","description":"Layanan Reguler","cost":[{"value":20000,"etd":"1-2","note":""}]},{"service":"BEST","description":"Besok Sampai Tujuan","cost":[{"value":30000,"etd":"1","note":""}]},{"service":"SIUNT","description":"SiUntung","cost":[{"value":20000,"etd":"1-2","note":""}]}]}]

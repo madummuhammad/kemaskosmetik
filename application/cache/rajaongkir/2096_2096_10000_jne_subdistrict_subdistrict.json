@@ -1,0 +1,1 @@
+[{"code":"jne","name":"Jalur Nugraha Ekakurir (JNE)","costs":[{"service":"CTC","description":"JNE City Courier","cost":[{"value":90000,"etd":"1-2","note":""}]},{"service":"CTCYES","description":"JNE City Courier","cost":[{"value":180000,"etd":"1-1","note":""}]}]}]
