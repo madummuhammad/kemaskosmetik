@@ -85,8 +85,8 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 defined('APP_VERSION') OR define('APP_VERSION', '1.1.1');
-defined('BASE_URL')	   OR define('BASE_URL', 'http://localhost/kemas/');
-// defined('BASE_URL')	   OR define('BASE_URL', 'https://mpmindo.id/');
+// defined('BASE_URL')	   OR define('BASE_URL', 'http://localhost/kemas/');
+defined('BASE_URL')	   OR define('BASE_URL', 'https://kemaskosmetik.com/');
 defined('DIR_IMAGE')   OR define('DIR_IMAGE', 'storage/images/');
 defined('DIR_UPLOAD')  OR define('DIR_UPLOAD', 'storage/uploads/');
 defined('HTTP_IMAGE')  OR define('HTTP_IMAGE', BASE_URL.DIR_IMAGE);
