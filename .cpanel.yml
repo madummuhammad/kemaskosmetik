@@ -2,3 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/hasa3862/public_html/kemaskosmetik.com
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
