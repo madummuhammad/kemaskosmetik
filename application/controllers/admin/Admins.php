@@ -42,9 +42,9 @@ class Admins extends Admin_Controller
 			
 			$this->output->set_output($this->datatables->generate('json'));
 		} else {
-			if ( ! $this->admin->has_permission()) {
+			/**if ( !$this->admin->has_permission()) {
 				show_401($this->uri->uri_string());
-			}
+			}*/
 			
 			$this->load
 			->title(lang('heading_title'))
